@@ -1,0 +1,14 @@
+export const themeData = JSON.parse("{\"logo\":\"/logo.png\",\"navbar\":[{\"text\":\"خانه\",\"link\":\"/\"},{\"text\":\"شروع سریع\",\"link\":\"/get-started\"},{\"text\":\"GitHub\",\"link\":\"https://github.com/EEvanescence/One\",\"target\":\"_blank\"}],\"sidebar\":\"heading\",\"editLink\":true,\"docsRepo\":\"https://github.com/EEvanescence/One\",\"docsBranch\":\"main\",\"docsDir\":\"docs\",\"editLinkPattern\":\":One/edit/:branch/:path\",\"lastUpdated\":true,\"contributors\":true,\"locales\":{\"/\":{\"selectLanguageName\":\"فارسی\",\"backToHome\":\"بازگشت به خانه\",\"openInNewWindow\":\"در پنجره جدید باز شود\",\"toggleColorMode\":\"تغییر حالت رنگ\",\"toggleSidebar\":\"نمایش/مخفی کردن سایدبار\",\"lastUpdated\":\"آخرین به‌روزرسانی\",\"contributors\":\"مشارکت‌کنندگان\",\"editLink\":\"ویرایش این صفحه\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"sidebarDepth\":2,\"editLinkText\":\"Edit this page\",\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
+}

@@ -1,0 +1,10 @@
+# nodeJS
+node_modules/
+package-lock.json
+# VuePress default temp directory
+.vuepress/.temp
+# VuePress default cache directory
+.vuepress/.cache
+# VuePress default build output directory
+.vuepress/dist
+

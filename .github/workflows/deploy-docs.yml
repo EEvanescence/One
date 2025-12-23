@@ -30,7 +30,10 @@ jobs:
           cache: npm
 
       - name: Install Deps
-        run: npm ci
+        run: npm install
+
+#      - name: Install Deps
+#        run: npm ci
 
       - name: Build Docs
         env:

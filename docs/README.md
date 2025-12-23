@@ -7,8 +7,8 @@ actions:
     link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: GitHub
+    link: https://github.com/EEvanescence/
     type: secondary
 
 features:

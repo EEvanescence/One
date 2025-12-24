@@ -1,6 +1,6 @@
-import { CodeTabs } from "/data/data/com.termux/files/home/one/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
-import { Tabs } from "/data/data/com.termux/files/home/one/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
-import "/data/data/com.termux/files/home/one/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
+import { CodeTabs } from "/data/data/com.termux/files/home/One/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
+import { Tabs } from "/data/data/com.termux/files/home/One/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
+import "/data/data/com.termux/files/home/One/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
 
 export default {
   enhance: ({ app }) => {
